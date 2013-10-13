@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>Formulario</title>
+	<link rel="stylesheet" href="css/estilo.css" type="text/css">
+	<link rel="stylesheet" href="css/reseter.css" type="text/css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/validar.js"></script>
+
+</head>
+<body>
+	
+	<div id="wrapper">
+		<span id="titulo">We love to hear from you!</span>
+
+		<form action="procesar3.php" name="formulario" id="formulario" method="POST">
+
+			<span class="letras" id="tuNombre">Your Name:</span>
+			<input name="cajaNombre" type="text" class="cajas" id="cajaNombre" value="">
+			<div id="mensaje1" class="errores">Nombre Requerido</div>
+
+			<span class="letras letras2">Your Email Address</span>
+			<input name="cajaMail" type="text" class="cajas" id="cajaMail" value="">
+			<div id="mensaje2" class="errores">Email Requerido</div>
+
+			<span class="letras letras2">Select Service</span>
+			<select name="radioButton" id="radioButton">
+				<option id="seleccion" value="">Select Industry</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+			</select>
+
+			<div id="mensaje4" class="errores">Opcion Requerida</div>
+
+			<span class="letrasGrandes">Your Message:</span>
+			<input name="cajaGrande" type="text" class="cajaGrande" id="cajaMsj" value="">
+			<div id="mensaje3" class="errores">Mensaje Requerido</div>
+
+			<span id="pie">We value your privacy. We do not share or <br/> rent your contact details.</span>
+			
+			<button type="submit" id="submit"><img src="css/fondos/boton2.png" alt=""></button>
+
+		</form>
+	</div>
+
+	
+</body>
+</html>

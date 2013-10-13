@@ -1,0 +1,109 @@
+body {
+	background-color: #000000;
+}
+
+#wrapper {
+	width: 600;
+	height: 420;
+	background-color: #f9f6e4;
+	margin: 100 auto;
+	position: relative;
+
+}
+
+#titulo {
+	display: block;
+	height: 25;
+	/*background: #854406;*/
+	font-family: Trebuchet;
+	font-size: 20;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-top: 13;
+	padding-bottom: 15;
+	padding-left: 34;
+	background: url('fondos/titulo.png');
+	background-repeat: repeat-x; 
+}
+
+.letras {
+	font-family: Trebuchet MS;
+	font-size: 13;
+	font-weight: normal;
+	display: block;
+	padding-left: 34;
+}
+
+.cajas {
+	width: 260;
+	height: 33;
+	margin-left: 34;
+	margin-bottom: 26;
+	display: inline;
+}
+
+.letrasGrandes {
+	position: absolute;
+	right: 211;
+	top: 84;
+	font-family: Trebuchet;
+	font-size: 13;
+	font-weight: normal;
+}
+
+.cajaGrande {
+	width: 260;
+	height: 190;
+	position: absolute;
+	right: 32;
+	top: 105;
+}
+
+#tuNombre {
+	margin-top: 30;
+	margin-bottom: 8;
+}
+
+.letras2 {
+	margin-bottom: 4;
+}
+
+#wrapper select {
+	display: block;
+	width: 260;
+	height: 33;
+	margin-left: 34;
+	margin-bottom: 26;
+	display: block;
+}
+
+#pie {
+	font-family: Trebuchet;
+	font-size: 13;
+	color: #b8002f;
+	font-weight: normal;
+	margin-left: 34;
+	display: block;
+}
+
+#submit {
+	position: absolute;
+	right: 61;
+	bottom: 48;
+}
+
+.errores {
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	-o-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	background: #FF0000;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3)
+	color: #FFF;
+	display: none;
+	font-size: 14;
+	margin-top: -80;
+	margin-left: 340;
+	padding: 10;
+	position: absolute;
+	z-index: 1;
+}
